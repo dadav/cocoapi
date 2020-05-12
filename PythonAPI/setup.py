@@ -1,4 +1,8 @@
 from setuptools import setup, Extension
+
+from setuptools import dist
+dist.Distribution().fetch_build_eggs(['numpy>=1.18.2'])
+
 import numpy as np
 
 # To compile and install locally run "python setup.py build_ext --inplace"
