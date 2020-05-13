@@ -1,7 +1,7 @@
 from setuptools import setup, Extension
 
 from setuptools import dist
-dist.Distribution().fetch_build_eggs(['numpy>=1.18.2', 'cpython>=0.29.16'])
+dist.Distribution().fetch_build_eggs(['numpy>=1.18.2', 'cython>=0.29.16'])
 
 import numpy as np
 
